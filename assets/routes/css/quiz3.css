@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota&display=swap');
+body{
+    background-image: url('images/quiz3bg.jpg') ;
+    z-index: -1;
+    font-family: 'Bellota', cursive;
+}
+.Heading{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'eater';
+}
+.Heading1{
+    color: rgb(20, 252, 20);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'eater';
+}
+ul{
+    list-style: none;
+}
+.instruct{
+    color: rgb(20, 252, 20);
+    text-align: center;
+    font-size: 25px;
+}
+.story{
+    color: greenyellow;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 10px;
+    box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 2px #b61b1b,
+        inset 0 0 100px black,
+        0 0 10px rgba(0,0,0,0.2);
+}

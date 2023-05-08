@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota&display=swap');
+body{
+    background-image: url('images/quiz4bg.jpg');
+    z-index: -1;
+    background: opacity(0.5);
+    margin: 0;
+}
+.heading{
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 22px;
+    font-family: 'Bellota';
+    border-radius: 12px;
+    background-color: rgba(7, 47, 210, 0.614);
+    border: 1px solid #bacdd8;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+  ul{
+    list-style: none;
+    text-align: left;
+  }
+  .skill{
+    background-color: white;
+    border: 1px solid hsl(202, 28%, 79%);
+    padding: 0;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+.card {
+    background-color: white;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+  h1 {
+    text-align: center;
+  }
+  
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type=radio] {
+    margin-right: 10px;
+  }
+  
+  input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3E8E41;
+  }
+  
