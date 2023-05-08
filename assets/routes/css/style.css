@@ -7,7 +7,7 @@ html {
 }
 /* Main content area */
 .box1 {
-    background-image: url('assets/icons/landingpageimage.png');
+    background-image: url('images/landingpageimage.png');
     background-size: cover;
     justify-content: center;
     align-items: center;

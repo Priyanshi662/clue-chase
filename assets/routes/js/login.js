@@ -35,7 +35,7 @@ if(loginButton)
         .then(() => {
             // Redirect to success page
             alert('login successful');
-            window.location.replace('quiz1.html');
+            window.location.replace('landingpage.html');
         })
         .catch((error) => {
             const errorMessage = error.message;

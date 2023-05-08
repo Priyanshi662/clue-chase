@@ -33,7 +33,7 @@ if (signUpBtn) {
       .then((userCredential) => {
         // User is signed up
         console.log('User signed up:', userCredential);
-        window.location.replace('quiz1.html');
+        window.location.replace('landingpage.html');
       })
       .catch((error) => {
         // Handle errors
