@@ -11,7 +11,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   if (answer1.value === 'moon' && answer2.value === 'deep space exploration') {
     swal("Good job!", "You gave the correct answer!", "success");
-    setInterval(function(){ window.location.href = "Congrats.html"; }, 2000);
+    setInterval(function(){ window.location.href = "quiz2.html"; }, 2000);
   } else {
     swal('Sorry, your answer is incorrect. Please try again.');
     setInterval(function(){ window.location.href = "quiz1.html"; }, 2000);
