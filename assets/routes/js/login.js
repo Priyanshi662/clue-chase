@@ -21,12 +21,12 @@ if(loginButton)
         const email = emailInput.value;
         const password = passwordInput.value;
         if (!email) {
-        alert('Please enter your email');
+        swal('Please enter your email');
         return;
         }
         
         if (!password) {
-        alert('Please enter your password');
+        swal('Please enter your password');
         return;
         }
         
@@ -34,12 +34,12 @@ if(loginButton)
         firebase.auth().signInWithEmailAndPassword(email, password)
         .then(() => {
             // Redirect to success page
-            alert('login successful');
-            window.location.replace('landingpage.html');
+            swal('login successful');
+            window.location.replace('routes/landingpage.html');
         })
         .catch((error) => {
             const errorMessage = error.message;
-            alert(errorMessage);
+            swal(errorMessage);
         });
     });
 }
