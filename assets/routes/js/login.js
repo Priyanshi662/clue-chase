@@ -35,7 +35,7 @@ if(loginButton)
         .then(() => {
             // Redirect to success page
             swal('login successful');
-            setInterval(function(){ window.location.href = "landingpage.html"; },2000);
+            setInterval(window.location.replace('landingpage.html'),2000);
         })
         .catch((error) => {
             const errorMessage = error.message;
