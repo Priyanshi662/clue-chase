@@ -9,10 +9,9 @@ To get started with the game, follow these steps:
 1. Clone the repository to your local machine.
 2. Open the index.html file in your browser.
 3. You will be directed to the login page where you can either log in or sign up.
-4. After logging in, you can select the quiz you want to take from the dashboard.
-5. The game will then take you through the quiz, presenting you with various questions and challenges to assess your soft skills.
-6. Throughout the game, you will encounter dead-ends and clues that will help you find the right answer.
-7. After completing the quiz, you will be presented with your score and feedback on your performance.
+4. After logging in the game will take you through the quizzes, presenting you with various questions and challenges to assess your soft skills.
+5. Throughout the game, you will encounter dead-ends and clues that will help you find the right answer.
+6. After completing the quiz, you will be presented with your score and feedback on your performance.
 
 ## Technology Used
 
